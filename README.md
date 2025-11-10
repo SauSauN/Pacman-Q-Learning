@@ -18,3 +18,13 @@ Ce projet est construit en Python à l'aide de la bibliothèque Pygame pour l'en
 ---
 
 ## Structure du Projet
+Pacman-Q-Learning/
+├── agent.py           # Définit la classe QLearningAgent (le "cerveau" de l'IA)
+├── main.py            # Script principal pour l'entraînement de l'agent
+├── test_agent.py      # Script pour tester un agent déjà entraîné (mode exploitation)
+├── environment.py     # Définit la classe PacManGame (logique du jeu, récompenses, état)
+├── config.py          # Fichier central pour tous les hyperparamètres et réglages
+├── maze.txt           # Fichier texte définissant la carte du labyrinthe
+├── assets/            # Dossier pour les sprites (pacman.png, ghost.png, etc.)
+├── pacman_q_table.pkl # (Généré) Fichier de sauvegarde de la Q-table apprise
+└── README.md          # Ce fichier README
